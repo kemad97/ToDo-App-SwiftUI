@@ -25,8 +25,8 @@ struct ToDo_App_SwiftUIApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            TaskListView()
         }
-        .modelContainer(sharedModelContainer)
+        .modelContainer(for: Task.self)
     }
 }
