@@ -61,7 +61,7 @@
 		3A25B9406F33AE43D0877BEF /* Build Target */ = {
 			isa = PBXLegacyTarget;
 			buildArgumentsString = "-c \"${AFEB778}\"";
-			buildConfigurationList = E10AC8F12E5C85B000D9CA5A /* Build configuration list */;
+			buildConfigurationList = E10AC8F12E5C85B000D9CA5A /* Build configuration list for PBXLegacyTarget "Build Target" */;
 			buildPhases = (
 			);
 			buildToolPath = /bin/sh;
@@ -376,7 +376,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E10AC8F12E5C85B000D9CA5A /* Build configuration list */ = {
+		E10AC8F12E5C85B000D9CA5A /* Build configuration list for PBXLegacyTarget "Build Target" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E10AC8EF2E5C805C00D9CA5A /* Debug */,

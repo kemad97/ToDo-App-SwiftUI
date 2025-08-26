@@ -12,20 +12,23 @@ import SwiftData
 class TaskViewModel : ObservableObject {
     @Published var newTaskTitle : String = ""
     @Published var newTaskDescription : String = ""
-
     
-     
+    
+    
     func addTask (context : ModelContext){
         guard  !newTaskTitle.isEmpty else {return}
         //guard  !newTaskDescription.isEmpty else {return}
         let task = Task(title:newTaskTitle , isCompleted: false)
         context.insert(task)
         newTaskTitle = ""
-      
+       // try?context.save()
+        
     }
     
     func toggleTask(_ task: Task, context: ModelContext) {
-           task.isCompleted.toggle()
-       }
+        task.isCompleted.toggle()
+        //try?context.save()
+        
+    }
     
 }
